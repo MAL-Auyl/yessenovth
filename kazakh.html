@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="kk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Технопарк</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Ссылка на CSS -->
+</head>
+<body>
+
+<header class="small-header">
+    <div class="logo">
+        <img src="logo.png" alt="Технопарктің логотипі">
+    </div>
+    <div class="language-switcher">
+        <button onclick="changeLanguage('en')">English</button>
+        <button onclick="changeLanguage('kk')">Русский</button>
+    </div>
+    <div class="contact-info">
+        <p>Телефон: +7 (123) 456-78-90</p>
+    </div>
+</header>
+
+<!-- Большой хедер -->
+<header class="large-header">
+    <nav>
+        <ul>
+            <li><a href="#home">Басты бет</a></li>
+            <li><a href="#about">Технопарк туралы</a></li>
+            <li><a href="#services">Қызметтер</a></li>
+            <li><a href="#residents">Резиденттер</a></li>
+            <li><a href="#partners">Серіктестер</a></li>
+            <li><a href="#news">Жаңалықтар</a></li>
+            <li><a href="#contact">Байланыс</a></li>
+            <li><a href="#faq">Сұрақтар</a></li>
+        </ul>
+    </nav>
+</header>
+
+<section class="hero">
+    <video autoplay muted loop class="hero-video">
+        <source src="video.mp4" type="video/mp4"> <!-- Укажите путь к видео -->
+        Сіздің браузеріңіз видеоны қолдамайды.
+    </video>
+    <div class="overlay">
+        <div class="hero-content">
+            <h1>Yessenov Technopark - идеялардың шындыққа айналатын орны!</h1>
+        </div>
+    </div>
+</section>
+
+<div class="news-block">
+    <h2>Жаңалықтар</h2>
+    <div class="card-container">
+        <div class="card">
+            <img src="bb.jpg" alt="Жаңа зертхана" class="card-image">
+            <h3>Жаңа зертхана ашылды!</h3>
+            <p>Біздің технопаркте биотехнология саласындағы стартаптар үшін жаңа зертхана ашылды. Мұнда зерттеулер мен әзірлемелер жүргізілетін болады.</p>
+            <a href="#" class="read-more">Одан әрі оқу</a>
+        </div>
+        <div class="card">
+            <img src="tech.jpg" alt="Инновациялар семинары" class="card-image">
+            <h3>Инновациялар семинары</h3>
+            <p>Сіздерді семинарға шақырамыз, мұнда сарапшылар технологиялар мен кәсіпкерліктегі жаңа тенденциялар туралы айтып береді.</p>
+            <a href="#" class="read-more">Одан әрі оқу</a>
+        </div>
+        <div class="card">
+            <img src="aa.jpg" alt="Стартаптар конкурсы" class="card-image">
+            <h3>Стартаптар конкурсы</h3>
+            <p>Стартаптар үшін конкурс бастаймыз! Жеңімпаздар өз жобаларын дамытуға қаржыландыру мен қолдау алады.</p>
+            <a href="#" class="read-more">Одан әрі оқу</a>
+        </div>
+    </div>
+</div>
+
+<div class="techno-park-block">
+    <div class="text-section">
+        <h1>Yessenov Technopark</h1>
+        <p>
+            Yessenov Technopark — ғылым және технологиялар саласындағы жоғары технологиялық компаниялар мен стартаптардың шоғырланған инновациялық алаңы. Біз бизнесті қолдау, заманауи зертханаларға және жаңа идеяларды дамыту мен енгізу үшін бірегей инфрақұрылымға қол жеткізуді ұсынамыз.
+        </p>
+        <p>
+            Біздің миссиямыз — ғылыми зерттеулер мен кәсіпкерлік үшін қолайлы жағдайлар жасау, тәжірибе алмасу және жаңа технологияларды дамыту. Біз мұнда әлемді өзгертуге арналған идеялардың пайда болуына сенеміз!
+        </p>
+    </div>
+    <div class="image-section">
+        <img src="tech4.jpg" alt="Технопарк">
+    </div>
+</div>
+
+<div class="metrics-block">
+    <div>
+        <h2>500M+$</h2>
+        <p>Инновациялар мен даму үшін инвестицияланған.</p>
+    </div>
+    <div>
+        <h2>120+</h2>
+        <p>Құрылуынан бері инкубацияланған стартаптар.</p>
+    </div>
+    <div>
+        <h2>15</h2>
+        <p>Заманауи зерттеу зертханалары.</p>
+    </div>
+    <div>
+        <h2>300+</h2>
+        <p>Индустрия мен бизнестен серіктестер.</p>
+    </div>
+</div>
+
+<section id="services" class="services">
+    <h2>Қызметтер</h2>
+    <div class="service">
+        <img src="tech2.jpg" alt="Fab Lab зертханасы" class="service-image">
+        <h3>Fab Lab</h3>
+        <p>Заманауи жабдықтар мен технологияларды пайдалана отырып, өз жобаларыңызды жасау және сынау үшін идеялар фабрикасы.</p>
+    </div>
+    <div class="service">
+        <img src="tech.jpg" alt="01edu бағдарламалау мектебі" class="service-image">
+        <h3>01edu</h3>
+        <p>Барлық ниет білдірушілерге арналған бағдарламалауды оқыту. Түрлі тілдер мен технологиялар бойынша әртүрлі курстар.</p>
+    </div>
+    <div class="service">
+        <img src="teeech.jpg" alt="Каспий кәсіпкерлік орталығы" class="service-image">
+        <h3>СЕС</h3>
+        <p>Каспий кәсіпкерлік орталығы — стартаптар үшін платформа, мұнда жас инновациялар мен бизнесмендерге қолдау көрсетіледі және оқытылады.</p>
+    </div>
+</section>
+
+<section id="residents" class="residents">
+    <h2>Біздің резиденттердің стартаптары</h2>
+    <div class="slider">
+        <div class="slide active">
+            <div class="card">
+                <h3>TEAM bit storm</h3>
+                <p>VR/AR пайдалана отырып, оқу платформасы</p>
+            </div>
+        </div>
+        <div class="slide">
+            <div class="card">
+                <h3>Kublitter</h3>
+                <p>Туристер үшін ақылды карта</p>
+            </div>
+        </div>
+        <div class="slide">
+            <div class="card">
+                <h3>Team Falcons</h3>
+                <p>Заповедниктерге арналған ақылды камера</p>
+            </div>
+        </div>
+        <button class="prev" onclick="changeSlide(-1)">&#10094;</button>
+        <button class="next" onclick="changeSlide(1)">&#10095;</button>
+    </div>
+</section>
+
+<section id="partners" class="partners">
+    <h2>Біздің серіктестер</h2>
+    <div class="partner-slider">
+        <div class="partner-slide"><img src="fab.png" alt="Серіктес 1"></div>
+        <div class="partner-slide"><img src="01edu.png" alt="Серіктес 2"></div>
+        <div class="partner-slide"><img src="mang.png" alt="Серіктес 3"></div>
+        <div class="partner-slide"><img src="fab.png" alt="Серіктес 1"></div>
+        <div class="partner-slide"><img src="01edu.png" alt="Серіктес 2"></div>
+        <div class="partner-slide"><img src="mang.png" alt="Серіктес 3"></div>
+    </div>
+</section>
+
+<footer>
+    <p>© 2024 YessenovTechnopark. Барлық құқықтар қорғалған.</p>
+    <div class="socials">
+        <div class="address">
+            <a href="#">Ақтау қаласы</a>
+            <a href="#">32-ші микрорайон</a>
+        </div>
+    </div>
+</footer>
+
+<script>
+    function changeLanguage(lang) {
+        if (lang === 'en') {
+            window.location.href = 'english.html'; // Укажите путь к вашему английскому файлу
+        } else if (lang === 'kk') {
+            window.location.href = 'index.html'; // Укажите путь к вашему казахскому файлу
+        }
+    }
+    </script>
+    
+    
+
+
+</body>
+</html>

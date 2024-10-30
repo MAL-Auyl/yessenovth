@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Technopark</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Link to CSS -->
+</head>
+<body>
+
+<header class="small-header">
+    <div class="logo">
+        <img src="logo.png" alt="Technopark Logo">
+    </div>
+    <div class="language-switcher">
+        <button onclick="changeLanguage('en')">English</button>
+        <button onclick="changeLanguage('kk')">Қазақша</button>
+    </div>
+    <div class="contact-info">
+        <p>Phone: +7 (123) 456-78-90</p>
+    </div>
+</header>
+
+<!-- Large header -->
+<header class="large-header">
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About Technopark</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#residents">Residents</a></li>
+            <li><a href="#partners">Partners</a></li>
+            <li><a href="#news">News</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li><a href="#faq">FAQ</a></li>
+        </ul>
+    </nav>
+</header>
+
+<section class="hero">
+    <video autoplay muted loop class="hero-video">
+        <source src="video.mp4" type="video/mp4"> <!-- Specify path to video -->
+        Your browser does not support video.
+    </video>
+    <div class="overlay">
+        <div class="hero-content">
+            <h1>Yessenov Technopark - where ideas become reality!</h1>
+        </div>
+    </div>
+</section>
+
+<div class="news-block">
+    <h2>News</h2>
+    <div class="card-container">
+        <div class="card">
+            <img src="bb.jpg" alt="New Laboratory" class="card-image">
+            <h3>New Laboratory Opened!</h3>
+            <p>A new laboratory for biotechnology startups has been opened in our technopark. Research and development will be conducted here.</p>
+            <a href="#" class="read-more">Read more</a>
+        </div>
+        <div class="card">
+            <img src="tech.jpg" alt="Innovation Seminar" class="card-image">
+            <h3>Innovation Seminar</h3>
+            <p>We invite you to a seminar where experts will discuss new trends in technology and entrepreneurship.</p>
+            <a href="#" class="read-more">Read more</a>
+        </div>
+        <div class="card">
+            <img src="aa.jpg" alt="Startup Competition" class="card-image">
+            <h3>Startup Competition</h3>
+            <p>We are launching a competition for startups! Winners will receive funding and support in developing their projects.</p>
+            <a href="#" class="read-more">Read more</a>
+        </div>
+    </div>
+</div>
+
+<div class="techno-park-block">
+    <div class="text-section">
+        <h1>Yessenov Technopark</h1>
+        <p>
+            Yessenov Technopark is an innovative platform where high-tech companies and startups focused on science and technology are concentrated. We offer business support, access to modern laboratories, and unique infrastructure for the development and implementation of new ideas.
+        </p>
+        <p>
+            Our mission is to create comfortable conditions for scientific research and entrepreneurship, facilitate knowledge exchange, and foster the development of new technologies. We believe that here, ideas are born that change the world!
+        </p>
+    </div>
+    <div class="image-section">
+        <img src="tech4.jpg" alt="Technopark">
+    </div>
+</div>
+
+<div class="metrics-block">
+    <div>
+        <h2>500M+$</h2>
+        <p>Invested in innovations and development.</p>
+    </div>
+    <div>
+        <h2>120+</h2>
+        <p>Startups incubated since inception.</p>
+    </div>
+    <div>
+        <h2>15</h2>
+        <p>Modern research laboratories.</p>
+    </div>
+    <div>
+        <h2>300+</h2>
+        <p>Industry and business partners.</p>
+    </div>
+</div>
+
+<section id="services" class="services">
+    <h2>Services</h2>
+    <div class="service">
+        <img src="tech2.jpg" alt="Fab Lab" class="service-image">
+        <h3>Fab Lab</h3>
+        <p>A factory of ideas where you can create and test your projects using modern equipment and technologies.</p>
+    </div>
+    <div class="service">
+        <img src="tech.jpg" alt="01edu Programming School" class="service-image">
+        <h3>01edu</h3>
+        <p>Programming courses for everyone. Various courses on different languages and technologies.</p>
+    </div>
+    <div class="service">
+        <img src="teeech.jpg" alt="Caspian Entrepreneurship Center" class="service-image">
+        <h3>SEC</h3>
+        <p>Caspian Entrepreneurship Center is a platform for startups that supports and trains young innovators and entrepreneurs.</p>
+    </div>
+</section>
+
+<section id="residents" class="residents">
+    <h2>Our Residents' Startups</h2>
+    <div class="slider">
+        <div class="slide active">
+            <div class="card">
+                <h3>TEAM bit storm</h3>
+                <p>A platform for education using VR/AR</p>
+            </div>
+        </div>
+        <div class="slide">
+            <div class="card">
+                <h3>Kublitter</h3>
+                <p>A smart map for tourists</p>
+            </div>
+        </div>
+        <div class="slide">
+            <div class="card">
+                <h3>Team Falcons</h3>
+                <p>A smart camera for nature reserves</p>
+            </div>
+        </div>
+        <button class="prev" onclick="changeSlide(-1)">&#10094;</button>
+        <button class="next" onclick="changeSlide(1)">&#10095;</button>
+    </div>
+</section>
+
+<section id="partners" class="partners">
+    <h2>Our Partners</h2>
+    <div class="partner-slider">
+        <div class="partner-slide"><img src="fab.png" alt="Partner 1"></div>
+        <div class="partner-slide"><img src="01edu.png" alt="Partner 2"></div>
+        <div class="partner-slide"><img src="mang.png" alt="Partner 3"></div>
+        <div class="partner-slide"><img src="fab.png" alt="Partner 1"></div>
+        <div class="partner-slide"><img src="01edu.png" alt="Partner 2"></div>
+        <div class="partner-slide"><img src="mang.png" alt="Partner 3"></div>
+    </div>
+</section>
+
+<footer>
+    <p>© 2024 YessenovTechnopark. All rights reserved.</p>
+    <div class="socials">
+        <div class="address">
+            <a href="#">City of Aktau</a>
+            <a href="#">32 Microdistrict</a>
+        </div>
+    </div>
+</footer>
+
+    <script>
+function changeLanguage(lang) {
+    if (lang === 'en') {
+        window.location.href = 'english.html'; // Укажите путь к вашему английскому файлу
+    } else if (lang === 'kk') {
+        window.location.href = 'kazakh.html'; // Укажите путь к вашему казахскому файлу
+    }
+}
+</script>
+
+</script>
+
+</body>
+</html>

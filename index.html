@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Технопарк</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Ссылка на CSS -->
+</head>
+<body>
+
+<header class="small-header">
+    <div class="logo">
+        <img src="logo.png" alt="Логотип технопарка">
+    </div>
+    <div class="language-switcher">
+        <button onclick="changeLanguage('en')">English</button>
+        <button onclick="changeLanguage('ru')">Қазақша</button>
+    </div>
+    
+</header>
+
+<!-- Большой хедер -->
+<header class="large-header">
+    <nav>
+        <ul>
+            <li><a href="#home">Главная</a></li>
+            <li><a href="#news-block">Новости</a></li>
+            <li><a href="#techno-park-block">О технопарке</a></li>
+            <li><a href="#services">Обучение</a></li>
+            <li><a href="#residents">Резиденты</a></li>
+            <li><a href="#partners">Партнеры</a></li>
+             <li><a href="#contact">Конакты</a></li>
+            
+        </ul>
+    </nav>
+</header>
+
+<section class="hero">
+    <video autoplay muted loop class="hero-video">
+        <source src="video.mp4" type="video/mp4"> <!-- Укажите путь к видео -->
+        Ваш браузер не поддерживает видео.
+    </video>
+    <div class="overlay">
+        <div class="hero-content">
+            <h1>Yessenov Technopark - место, где идеи становятся реальностью!</h1>
+        </div>
+    </div>
+</section>
+<section id="news-block" class="news-block">
+    
+    <div class="news-block">
+    <h2>Новости</h2>
+    <div class="card-container">
+        <div class="card">
+            <img src="bb.jpg" alt="Новая лаборатория" class="card-image">
+            <h3>Новая лаборатория открыта!</h3>
+            <p>В нашем технопарке открыта новая лаборатория для стартапов в области биотехнологий. Здесь будут проводиться исследования и разработки.</p>
+            <a href="#" class="read-more">Читать дальше</a>
+        </div>
+        <div class="card">
+            <img src="tech.jpg" alt="Семинар по инновациям" class="card-image">
+            <h3>Семинар по инновациям</h3>
+            <p>Приглашаем вас на семинар, где эксперты расскажут о новых тенденциях в области технологий и предпринимательства.</p>
+            <a href="#" class="read-more">Читать дальше</a>
+        </div>
+        <div class="card">
+            <img src="aa.jpg" alt="Конкурс стартапов" class="card-image">
+            <h3>Конкурс стартапов</h3>
+            <p>Запускаем конкурс для стартапов! Победители получат финансирование и поддержку в развитии своего проекта.</p>
+            <a href="#" class="read-more">Читать дальше</a>
+        </div>
+    </div>
+</div></section>
+
+<section id = "techno-park-block" class="techno-park-block">
+    <div class="techno-park-block">
+        <div class="text-section">
+            <h1>Yessenov Technopark</h1>
+            <p>
+                Yessenov Technopark — это инновационная площадка, где сосредоточены высокотехнологичные компании и стартапы, работающие в сфере науки и технологий. Мы предлагаем поддержку для бизнеса, доступ к современным лабораториям и уникальную инфраструктуру для развития и внедрения новых идей.
+            </p>
+            <p>
+                Наша миссия — создать комфортные условия для научных исследований и предпринимательства, способствовать обмену опытом и развитию новых технологий. Мы верим, что здесь рождаются идеи, которые меняют мир!
+            </p>
+        </div>
+        <div class="image-section">
+            <img src="tech4.jpg" alt="Технопарк">
+        </div>
+    </div>
+    
+
+</section>
+
+<div class="metrics-block">
+    <div>
+        <h2>500M+$</h2>
+        <p>Инвестировано в инновации и развитие.</p>
+    </div>
+    <div>
+        <h2>120+</h2>
+        <p>Стартапов инкубировано с момента основания.</p>
+    </div>
+    <div>
+        <h2>15</h2>
+        <p>Современных исследовательских лабораторий.</p>
+    </div>
+    <div>
+        <h2>300+</h2>
+        <p>Партнеров из индустрии и бизнеса.</p>
+    </div>
+</div>
+
+
+
+
+<h2>Инфраструктура</h2>
+<div class="grid-containers">
+   
+
+    <section class="infrastructure">
+        <img src="hero.jpg" alt="Производственные площади" class="rounded-img">
+        <h2>Производственные площади</h2>
+        <p>Пространства для стартапов и малых предприятий с доступом к оборудованию.</p>
+    </section>
+
+    <section class="infrastructure">
+        <img src="labs.jpg" alt="Лаборатории" class="rounded-img">
+        <h2>Лаборатории</h2>
+        <p>Оснащенные лаборатории для научных исследований и разработок.</p>
+    </section>
+
+    <section class="infrastructure">
+        <img src="hero2.jpg" alt="Коворкинги" class="rounded-img">
+        <h2>Коворкинги</h2>
+        <p>Пространства для работы, обмена идеями и сетевого взаимодействия.</p>
+    </section>
+
+    <section class="infrastructure">
+        <img src="https://archidom.ru/images/tb/3495/koworkingoffice12052016_0022-14630801992064_w679h1500.jpg" alt="Зоны отдыха и кафе" class="rounded-img">
+        <h2>Зоны отдыха и кафе</h2>
+        <p>Уютные места для отдыха и общения, где можно перекусить и расслабиться.</p>
+    </section>
+
+    
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<section id="services" class="services">
+    <h2>Обучение</h2>
+    <div class="service">
+        <img src="tech2.jpg" alt="Лаборатория Fab Lab" class="service-image">
+        <h3>Fab Lab</h3>
+        <p>Фабрика идей, где можно создать и протестировать свои проекты с использованием современного оборудования и технологий.</p>
+    </div>
+    <div class="service">
+        <img src="tech.jpg" alt="Школа программирования 01edu" class="service-image">
+        <h3>01edu</h3>
+        <p>Обучение программированию для всех желающих. Разнообразные курсы по различным языкам и технологиям.</p>
+    </div>
+    <div class="service">
+        <img src="teeech.jpg" alt="Каспийский центр предпринимательства" class="service-image">
+        <h3>СЕС</h3>
+        <p>Каспийский центр предпринимательства — платформа для стартапов, где поддерживают и обучают молодых инноваторов и бизнесменов.</p>
+    </div>
+</section>
+
+<section id="residents" class="residents">
+    <h2>Стартапы наших резидентов</h2>
+    <div class="slider">
+        <div class="slide active">
+            <div class="card">
+                <h3>TEAM bit storm</h3>
+                <p>Платформа для обучения с использованием VR/AR</p>
+            </div>
+        </div>
+        <div class="slide">
+            <div class="card">
+                <h3>Kublitter</h3>
+                <p>Умная карта для туристов</p>
+            </div>
+        </div>
+        <div class="slide">
+            <div class="card">
+                <h3>Team Falcons</h3>
+                <p>Умная камера для заповедников</p>
+            </div>
+        </div>
+        <button class="prev" onclick="changeSlide(-1)">&#10094;</button>
+        <button class="next" onclick="changeSlide(1)">&#10095;</button>
+    </div>
+</section>
+
+<section id="partners" class="partners">
+    <h2>Наши Партнёры</h2>
+    <div class="partner-slider">
+        <div class="partner-slide"><img src="fab.png" alt="Партнёр 1"></div>
+        <div class="partner-slide"><img src="01edu.png" alt="Партнёр 2"></div>
+        <div class="partner-slide"><img src="mang.png" alt="Партнёр 3"></div>
+        <div class="partner-slide"><img src="fab.png" alt="Партнёр 1"></div>
+        <div class="partner-slide"><img src="01edu.png" alt="Партнёр 2"></div>
+        <div class="partner-slide"><img src="mang.png" alt="Партнёр 3"></div>
+    </div>
+</section>
+
+<footer>
+    <p>© 2024 YessenovTechnopark. Все права защищены.</p>
+    <div class="socials">
+        <div class="address">
+            <a href="#">город Актау</a>
+            <a href="#">32 микрорайон</a>
+        </div>
+    </div>
+</footer>
+
+<script>
+    function changeLanguage(lang) {
+        if (lang === 'en') {
+            window.location.href = 'english.html'; // Укажите путь к вашему английскому файлу
+        } else if (lang === 'kk') {
+            window.location.href = 'kazakh.html'; // Укажите путь к вашему казахскому файлу
+        }
+    }
+    </script>
+    
+    
+</script>
+   
+</body>
+</html>
